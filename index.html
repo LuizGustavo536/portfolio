@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Luiz Gustavo | Portfólio de Desenvolvedor Full Stack & Backend</title>
+  <meta name="description" content="Portfólio profissional de Luiz Gustavo - Desenvolvedor Full Stack & Backend especializado em Python, APIs RESTful, Microsserviços e Automação.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Background Animated Gradients -->
+  <div class="blob blob-1"></div>
+  <div class="blob blob-2"></div>
+  <div class="blob blob-3"></div>
+
+  <!-- Header / Navigation -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-content">
+      <a href="#home" class="logo">
+        <span class="logo-bracket">&lt;</span>LuizGustavo<span class="logo-accent">.dev</span><span class="logo-bracket">/&gt;</span>
+      </a>
+
+      <nav class="nav-links" id="nav-links">
+        <a href="#home" class="nav-link active">Início</a>
+        <a href="#about" class="nav-link">Sobre</a>
+        <a href="#skills" class="nav-link">Habilidades</a>
+        <a href="#projects" class="nav-link">Projetos</a>
+        <a href="#contact" class="nav-link">Contato</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="https://github.com/LuizGustavo536" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+          <i class="fa-brands fa-github"></i> GitHub
+        </a>
+        <button class="mobile-toggle" id="mobile-toggle" aria-label="Abrir menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <div class="container hero-container">
+        <div class="hero-text">
+          <div class="badge-status">
+            <span class="pulse-dot"></span> Disponível para novos projetos
+          </div>
+          <h1 class="hero-title">
+            Construindo o futuro com <span class="gradient-text">código & performance</span>.
+          </h1>
+          <p class="hero-subtitle">
+            Olá, eu sou o <strong>Luiz Gustavo</strong>. <br/>
+            <span class="typing-container">
+              <span id="typing-text"></span><span class="cursor">|</span>
+            </span>
+          </p>
+          <p class="hero-description">
+            Especializado em arquitetura de APIs de alto desempenho, autenticação segura (JWT/OAuth), automação e soluções web completas com foco em eficiência e escalabilidade.
+          </p>
+
+          <div class="hero-cta">
+            <a href="#projects" class="btn btn-primary">
+              <i class="fa-solid fa-rocket"></i> Ver Projetos
+            </a>
+            <a href="https://newfire.top" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+              <i class="fa-solid fa-globe"></i> newfire.top
+            </a>
+            <a href="https://github.com/LuizGustavo536" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+              <i class="fa-brands fa-github"></i> Perfil GitHub
+            </a>
+          </div>
+
+          <div class="hero-stats">
+            <div class="stat-item">
+              <span class="stat-number">100%</span>
+              <span class="stat-label">Foco em Performance</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+              <span class="stat-number">REST & JWT</span>
+              <span class="stat-label">Segurança de Dados</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+              <span class="stat-number">24/7</span>
+              <span class="stat-label">Alta Disponibilidade</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="code-window">
+            <div class="window-header">
+              <div class="window-dots">
+                <span class="dot dot-red"></span>
+                <span class="dot dot-yellow"></span>
+                <span class="dot dot-green"></span>
+              </div>
+              <div class="window-title">luiz_gustavo.py</div>
+            </div>
+            <div class="window-body">
+              <pre><code><span class="keyword">class</span> <span class="class-name">SoftwareEngineer</span>:
+    <span class="keyword">def</span> <span class="function">__init__</span>(self):
+        self.name = <span class="string">"Luiz Gustavo"</span>
+        self.role = <span class="string">"Full Stack & Backend"</span>
+        self.location = <span class="string">"Brasil 🇧🇷"</span>
+        self.company = <span class="string">"New Fire"</span>
+        self.core_stack = [
+            <span class="string">"Python"</span>, <span class="string">"FastAPI"</span>,
+            <span class="string">"Node.js"</span>, <span class="string">"JavaScript"</span>
+        ]
+
+    <span class="keyword">def</span> <span class="function">build_solution</span>(self, idea):
+        <span class="keyword">return</span> {
+            <span class="string">"quality"</span>: <span class="string">"Clean Code"</span>,
+            <span class="string">"speed"</span>: <span class="string">"High Throughput"</span>,
+            <span class="string">"status"</span>: <span class="string">"Ready to Scale 🚀"</span>
+        }
+
+dev = SoftwareEngineer()</code></pre>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">// QUEM SOU EU</span>
+          <h2 class="section-title">Engenharia de Software com Foco em Resultados</h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-card glow-card">
+            <div class="card-icon"><i class="fa-solid fa-server"></i></div>
+            <h3>Backend Sólido</h3>
+            <p>Construção de APIs REST robustas, microsserviços rápidos com FastAPI e Flask, e rotinas com processamento assíncrono para máxima vazão.</p>
+          </div>
+
+          <div class="about-card glow-card">
+            <div class="card-icon"><i class="fa-solid fa-shield-halved"></i></div>
+            <h3>Segurança & Autenticação</h3>
+            <p>Implementação avançada de tokens JWT, validação de requisições, criptografia e proteção de rotas contra abusos e requisições concorrentes.</p>
+          </div>
+
+          <div class="about-card glow-card">
+            <div class="card-icon"><i class="fa-solid fa-robot"></i></div>
+            <h3>Automação & Bots</h3>
+            <p>Criação de bots e integrações para Discord e Webhooks capazes de automatizar tarefas, atendimento e processamento de dados 24 horas por dia.</p>
+          </div>
+
+          <div class="about-card glow-card">
+            <div class="card-icon"><i class="fa-solid fa-cloud"></i></div>
+            <h3>Cloud & Deploy</h3>
+            <p>Práticas modernas de deploy em nuvem (Vercel, Docker, GitHub Actions) garantindo estabilidade, baixo tempo de resposta e escalabilidade.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section skills" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">// TECH STACK</span>
+          <h2 class="section-title">Tecnologias & Ferramentas</h2>
+          <p class="section-description">As ferramentas e linguagens que domino no dia a dia para desenvolver produtos de ponta a ponta.</p>
+        </div>
+
+        <div class="skills-categories">
+          <!-- Backend Category -->
+          <div class="category-block">
+            <h3 class="category-title"><i class="fa-solid fa-terminal"></i> Backend & APIs</h3>
+            <div class="tech-grid">
+              <div class="tech-pill"><i class="fa-brands fa-python"></i> Python</div>
+              <div class="tech-pill"><i class="fa-solid fa-bolt"></i> FastAPI</div>
+              <div class="tech-pill"><i class="fa-solid fa-pepper-hot"></i> Flask</div>
+              <div class="tech-pill"><i class="fa-brands fa-node"></i> Node.js</div>
+              <div class="tech-pill"><i class="fa-solid fa-key"></i> JWT / Auth</div>
+              <div class="tech-pill"><i class="fa-solid fa-network-wired"></i> RESTful APIs</div>
+            </div>
+          </div>
+
+          <!-- Frontend Category -->
+          <div class="category-block">
+            <h3 class="category-title"><i class="fa-solid fa-desktop"></i> Frontend & Web</h3>
+            <div class="tech-grid">
+              <div class="tech-pill"><i class="fa-brands fa-js"></i> JavaScript (ES6+)</div>
+              <div class="tech-pill"><i class="fa-brands fa-react"></i> React</div>
+              <div class="tech-pill"><i class="fa-brands fa-html5"></i> HTML5</div>
+              <div class="tech-pill"><i class="fa-brands fa-css3-alt"></i> CSS3 Moderno</div>
+              <div class="tech-pill"><i class="fa-solid fa-mobile-screen"></i> Responsividade</div>
+            </div>
+          </div>
+
+          <!-- Database & Cloud Category -->
+          <div class="category-block">
+            <h3 class="category-title"><i class="fa-solid fa-database"></i> Dados & Infraestrutura</h3>
+            <div class="tech-grid">
+              <div class="tech-pill"><i class="fa-solid fa-database"></i> PostgreSQL</div>
+              <div class="tech-pill"><i class="fa-solid fa-leaf"></i> MongoDB</div>
+              <div class="tech-pill"><i class="fa-brands fa-docker"></i> Docker</div>
+              <div class="tech-pill"><i class="fa-brands fa-git-alt"></i> Git & GitHub</div>
+              <div class="tech-pill"><i class="fa-solid fa-cloud-arrow-up"></i> Vercel</div>
+              <div class="tech-pill"><i class="fa-brands fa-linux"></i> Linux</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section projects" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">// PORTFÓLIO</span>
+          <h2 class="section-title">Projetos em Destaque</h2>
+          <p class="section-description">Algumas das soluções de software e projetos públicos que desenvolvi.</p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <div class="project-card glow-card">
+            <div class="project-header">
+              <div class="project-folder"><i class="fa-regular fa-folder-open"></i></div>
+              <div class="project-links">
+                <a href="https://github.com/LuizGustavo536/JWT-Token-API" target="_blank" rel="noopener noreferrer" title="Ver código no GitHub">
+                  <i class="fa-brands fa-github"></i>
+                </a>
+              </div>
+            </div>
+            <h3 class="project-title">JWT Token API</h3>
+            <p class="project-desc">
+              API completa desenvolvida para geração de tokens JWT seguros e obtenção automatizada de dados de conta. Essencial para desenvolvedores que operam bots, automações e integrações com alta performance.
+            </p>
+            <div class="project-tags">
+              <span>Python</span>
+              <span>JWT</span>
+              <span>REST API</span>
+              <span>Segurança</span>
+            </div>
+            <div class="project-footer">
+              <a href="https://github.com/LuizGustavo536/JWT-Token-API" target="_blank" rel="noopener noreferrer" class="project-link-btn">
+                Explorar Repositório <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="project-card glow-card">
+            <div class="project-header">
+              <div class="project-folder"><i class="fa-regular fa-folder-open"></i></div>
+              <div class="project-links">
+                <a href="https://github.com/LuizGustavo536/info-ff-web" target="_blank" rel="noopener noreferrer" title="Ver código no GitHub">
+                  <i class="fa-brands fa-github"></i>
+                </a>
+              </div>
+            </div>
+            <h3 class="project-title">Info-FF-Web</h3>
+            <p class="project-desc">
+              Aplicação web com painel intuitivo para consulta em tempo real de estatísticas e métricas, consumindo serviços assíncronos em Python com layout limpo e ágil.
+            </p>
+            <div class="project-tags">
+              <span>Python</span>
+              <span>Web Interface</span>
+              <span>JavaScript</span>
+              <span>API Integration</span>
+            </div>
+            <div class="project-footer">
+              <a href="https://github.com/LuizGustavo536/info-ff-web" target="_blank" rel="noopener noreferrer" class="project-link-btn">
+                Explorar Repositório <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Project 3 -->
+          <div class="project-card glow-card">
+            <div class="project-header">
+              <div class="project-folder"><i class="fa-solid fa-robot"></i></div>
+              <div class="project-links">
+                <a href="https://github.com/LuizGustavo536" target="_blank" rel="noopener noreferrer" title="Ver perfil">
+                  <i class="fa-brands fa-github"></i>
+                </a>
+              </div>
+            </div>
+            <h3 class="project-title">Discord Automation & Bots</h3>
+            <p class="project-desc">
+              Sistemas de bots com arquitetura assíncrona para Discord, oferecendo geração de chaves, verificação de assinaturas, atendimento e monitoramento automático via webhooks e APIs privadas.
+            </p>
+            <div class="project-tags">
+              <span>Python</span>
+              <span>Discord.py</span>
+              <span>AsyncIO</span>
+              <span>Webhooks</span>
+            </div>
+            <div class="project-footer">
+              <a href="https://github.com/LuizGustavo536" target="_blank" rel="noopener noreferrer" class="project-link-btn">
+                Ver no GitHub <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Project 4 -->
+          <div class="project-card glow-card">
+            <div class="project-header">
+              <div class="project-folder"><i class="fa-solid fa-cloud-bolt"></i></div>
+              <div class="project-links">
+                <a href="https://newfire.top" target="_blank" rel="noopener noreferrer" title="Acessar site">
+                  <i class="fa-solid fa-globe"></i>
+                </a>
+              </div>
+            </div>
+            <h3 class="project-title">Microsserviços & Cloud APIs</h3>
+            <p class="project-desc">
+              Soluções backend estruturadas com FastAPI e Flask, otimizadas para ambientes serverless (Vercel) e Docker, contendo rate limiters, tratamento de exceções e monitoramento constante.
+            </p>
+            <div class="project-tags">
+              <span>FastAPI</span>
+              <span>Flask</span>
+              <span>Vercel</span>
+              <span>Docker</span>
+            </div>
+            <div class="project-footer">
+              <a href="https://newfire.top" target="_blank" rel="noopener noreferrer" class="project-link-btn">
+                Visitar newfire.top <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GitHub Metrics Section -->
+    <section class="section metrics" id="metrics">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">// ATIVIDADE EM TEMPO REAL</span>
+          <h2 class="section-title">Estatísticas do GitHub</h2>
+          <p class="section-description">Acompanhamento contínuo de código e contribuições ativas.</p>
+        </div>
+
+        <div class="metrics-grid">
+          <div class="metric-card">
+            <img src="https://github-stats-extended.vercel.app/api?username=LuizGustavo536&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=161b22&title_color=58A6FF&icon_color=8957E5&text_color=C9D1D9" alt="GitHub Stats" loading="lazy">
+          </div>
+          <div class="metric-card">
+            <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=LuizGustavo536&layout=compact&langs_count=6&theme=tokyonight&hide_border=true&bg_color=161b22&title_color=58A6FF&text_color=C9D1D9" alt="Top Languages" loading="lazy">
+          </div>
+        </div>
+
+        <div class="streak-wrapper">
+          <img src="https://streak-stats.demolab.com?user=LuizGustavo536&theme=tokyonight&hide_border=true&background=161b22&stroke=30363D&ring=58A6FF&fire=8957E5&currStreakNum=F0F6FC&sideNums=F0F6FC&currStreakLabel=58A6FF&sideLabels=8B949E&dates=8B949E" alt="GitHub Streak" loading="lazy">
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact" id="contact">
+      <div class="container contact-container">
+        <div class="contact-box glow-card">
+          <span class="section-tag">// VAMOS CONVERSAR?</span>
+          <h2 class="contact-title">Tem um projeto em mente ou precisa de uma API de alta velocidade?</h2>
+          <p class="contact-text">
+            Estou à disposição para consultoria, desenvolvimento de software sob demanda, criação de bots, APIs e soluções completas.
+          </p>
+
+          <div class="contact-actions">
+            <a href="https://newfire.top" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-lg">
+              <i class="fa-solid fa-globe"></i> Acessar newfire.top
+            </a>
+            <a href="https://github.com/LuizGustavo536" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-lg">
+              <i class="fa-brands fa-github"></i> Conectar no GitHub
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <p class="footer-copy">
+        © <span id="current-year"></span> <strong>Luiz Gustavo</strong>. Todos os direitos reservados.
+      </p>
+      <div class="footer-links">
+        <a href="#home">Voltar ao Topo <i class="fa-solid fa-arrow-up"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
