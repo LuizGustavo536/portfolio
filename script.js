@@ -13,9 +13,9 @@ document.addEventListener('DOMContentLoaded', () => {
   const typingElement = document.getElementById('typing-text');
   const phrases = [
     'Desenvolvedor Full Stack & Backend.',
-    'Especialista em Python & FastAPI.',
-    'Criador de APIs REST & Microsserviços.',
-    'Automações, Bots para Discord & Cloud.'
+    'Especialista em Node.js & Python.',
+    'Infraestrutura & Deploy em VPS Linux.',
+    'Nginx, PM2, Docker & APIs de Alta Performance.'
   ];
 
   let phraseIndex = 0;
